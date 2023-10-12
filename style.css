@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9c4e1c9;
+    
+}
+
+header {
+    background-color: rgba(74, 58, 178, 0.866);
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#search-form {
+    margin: 20px 0;
+}
+
+#search-input {
+    padding: 5px;
+}
+
+.button {
+    background-color: #f0189ddd;
+    border:#ddd;
+    color: #ddd;
+    padding: 5px 10px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.cardimage{
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.film-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.film-card {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #252323;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+    width: calc(33.33% - 10px); 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+     flex-direction: column;
+     justify-content: center; /* Centre le contenu verticalement */
+     align-items: center; /* Centre le contenu horizontalement */
+      height: 100%; 
+}
+
+.film-card img {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    background-color: rgba(125, 126, 196, 0.866);
+    }
+
+
+.modal-content {
+    background-color: rgba(218, 63, 151, 0.866);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(74, 58, 178, 0.866);
+}
+
+.form{
+    display: flex;
+   flex-flow: column;
+    width: 100%; 
+    align-items: center;
+}
+
+.inputfield{
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    display: flex;
+}

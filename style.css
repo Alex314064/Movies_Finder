@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9c4e1c9;
+    background-color: #fae4f0c9;
     
 }
 
 header {
-    background-color: rgba(74, 58, 178, 0.866);
+    background-color: rgba(29, 29, 33, 0.866);
     color: #fff;
     padding: 20px;
     margin-bottom: 4px;
@@ -103,7 +103,8 @@ main {
     bottom: 0;
     width: 100%;
     color: #fff;
-    background-color: rgba(74, 58, 178, 0.866);
+    background-color: rgba(29, 29, 33, 0.866);
+
 }
 
 .form{

@@ -1,4 +1,4 @@
-const apiKey = "A remplir";
+const apiKey = "5658e2e4";
 
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
